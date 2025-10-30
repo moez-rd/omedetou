@@ -1,27 +1,11 @@
-import {
-  Github,
-  Linkedin,
-  Mail,
-  Download,
-  ExternalLink,
-  Calendar,
-  MapPin,
-  Award,
-  Briefcase,
-  GraduationCap,
-  Code,
-  Camera,
-  Palette,
-  Brain,
-  Users,
-  Star,
-} from "lucide-react";
+import { Brain, Briefcase, Camera, Code, Palette, Users } from "lucide-react";
 
 // Personal Information
 export const personalInfo = {
   name: "Sania Fatimah Az Zahrah",
   title: "Aspiring Business Professional | Creative Content Creator",
-  description: "Reliable and detail-oriented professional with experience in administrative tasks, content creation, and digital media. Passionate about combining creativity with technology to deliver impactful solutions.",
+  description:
+    "Reliable and detail-oriented professional with experience in administrative tasks, content creation, and digital media. Passionate about combining creativity with technology to deliver impactful solutions.",
   profileImage: "/me.png",
   email: "saniafatimah@example.com",
   github: "https://github.com/saniafatimah",
@@ -49,13 +33,14 @@ export const aboutMe = {
   paragraphs: [
     "I am Zahrah, an Undergraduate Computer Science student majoring in Computer System at Sriwijaya University. I have a strong passion for creativity, especially in content creation, including videography, photography, video editing, and graphic design.",
     "As a highly committed fast learner, I quickly adapt to new trends and technologies in digital content. I enjoy crafting visually appealing and aesthetic content that engages audiences and tells compelling stories.",
-    "I'm confident in working both independently and collaboratively in a team environment. With a keen eye for detail and a drive to deliver high-quality work, I strive to create impactful content that resonates with people."
+    "I'm confident in working both independently and collaboratively in a team environment. With a keen eye for detail and a drive to deliver high-quality work, I strive to create impactful content that resonates with people.",
   ],
   services: [
     {
       icon: Camera,
       title: "Content Creation",
-      description: "Creating engaging visual content for social media and marketing",
+      description:
+        "Creating engaging visual content for social media and marketing",
     },
     {
       icon: Palette,
@@ -72,40 +57,33 @@ export const aboutMe = {
 
 // Skills Data
 export const skills = [
-  { name: "Content Creation", level: 95, icon: Camera },
-  { name: "Graphic Design", level: 90, icon: Palette },
-  { name: "Video Editing", level: 85, icon: Camera },
-  { name: "Photography", level: 90, icon: Camera },
-  { name: "Machine Learning", level: 75, icon: Brain },
-  { name: "Data Analysis", level: 80, icon: Code },
-  { name: "Team Leadership", level: 85, icon: Users },
-  { name: "Project Management", level: 80, icon: Briefcase },
+  "Canva",
+  "Python",
+  "Data Analysis",
+  "Data Visualization",
+  "Microsoft Excel",
+  "Leadership",
+  "Analytical Thinking",
+  "Communication & Public Speaking",
+  "Problem Solving",
+  "Teamwork & Collaboration",
+  "Adaptability",
+  "Fast Learner",
+  "Time Management",
+  "Attention to Detail",
 ];
 
 // Education Data
 export const educations = [
   {
     degree: "Bachelor of Computer Science",
-    institution: "Sriwijaya University",
-    period: "2021 - Present",
-    specialization: "Computer System",
-    gpa: "3.8/4.0",
+    institution: "Universitas Sriwijaya",
+    period: "Aug 2021 - Jul 2025",
+    gpa: "3.98/4.00",
     achievements: [
-      "Dean's List for 4 consecutive semesters",
-      "Outstanding Student Award 2023",
-      "Research Assistant in Machine Learning Lab",
-    ],
-  },
-  {
-    degree: "Senior High School",
-    institution: "SMA Negeri 1 Palembang",
-    period: "2018 - 2021",
-    specialization: "Science (IPA)",
-    gpa: "93.5/100",
-    achievements: [
-      "Valedictorian",
-      "Science Olympiad Regional Champion",
-      "Student Council President",
+      "Student Researcher Intern at Intelligent System Research Group, focusing on ECG signal analysis with Machine Learning",
+      "Bangkit Academy Graduate (Machine Learning track)",
+      "Graduated Cum Laude",
     ],
   },
 ];
@@ -119,7 +97,8 @@ export const experiences = [
     location: "Remote",
     type: "Freelance",
     image: "/experience/freelance.jpg",
-    description: "Creating engaging visual content for various clients including photography, videography, and social media management. Managed multiple brand accounts with significant follower growth.",
+    description:
+      "Creating engaging visual content for various clients including photography, videography, and social media management. Managed multiple brand accounts with significant follower growth.",
     achievements: [
       "Increased client social media engagement by 150%",
       "Completed 50+ successful projects",
@@ -139,7 +118,8 @@ export const experiences = [
     location: "Palembang, Indonesia",
     type: "Part-time",
     image: "/experience/studio.jpg",
-    description: "Assisted senior photographers in wedding, portrait, and event photography. Learned professional photography techniques and client management.",
+    description:
+      "Assisted senior photographers in wedding, portrait, and event photography. Learned professional photography techniques and client management.",
     achievements: [
       "Assisted in 30+ wedding ceremonies",
       "Learned advanced lighting techniques",
@@ -154,7 +134,8 @@ export const experiences = [
     location: "Palembang, Indonesia",
     type: "Internship",
     image: "/experience/agency.jpg",
-    description: "Created visual designs for various marketing materials including brochures, social media posts, and brand identities for local businesses.",
+    description:
+      "Created visual designs for various marketing materials including brochures, social media posts, and brand identities for local businesses.",
     achievements: [
       "Designed 100+ marketing materials",
       "Contributed to 5 major branding projects",
@@ -172,7 +153,8 @@ export const workExperiences = [
     period: "Jan 2023 - Present",
     location: "Remote",
     image: "/work/dataanalyst.jpg",
-    description: "Analyzing business data to provide insights for decision-making. Creating dashboards and reports using Python and visualization tools.",
+    description:
+      "Analyzing business data to provide insights for decision-making. Creating dashboards and reports using Python and visualization tools.",
     responsibilities: [
       "Data collection and cleaning from multiple sources",
       "Statistical analysis and predictive modeling",
@@ -187,7 +169,8 @@ export const workExperiences = [
     period: "Aug 2022 - Dec 2022",
     location: "Palembang, Indonesia",
     image: "/work/research.jpg",
-    description: "Assisted in machine learning research projects focused on natural language processing and computer vision applications.",
+    description:
+      "Assisted in machine learning research projects focused on natural language processing and computer vision applications.",
     responsibilities: [
       "Literature review and research paper analysis",
       "Data preprocessing and model training",
@@ -252,7 +235,8 @@ export const projects = [
   {
     title: "AI-Powered Content Generator",
     category: "Machine Learning",
-    description: "A web application that uses GPT models to generate creative content for social media posts, blogs, and marketing materials.",
+    description:
+      "A web application that uses GPT models to generate creative content for social media posts, blogs, and marketing materials.",
     image: "/projects/ai-content.jpg",
     technologies: ["Python", "OpenAI API", "React", "Node.js", "MongoDB"],
     features: [
@@ -268,7 +252,8 @@ export const projects = [
   {
     title: "Visual Brand Identity System",
     category: "Design",
-    description: "Complete brand identity design for a local coffee shop including logo, color palette, typography, and marketing materials.",
+    description:
+      "Complete brand identity design for a local coffee shop including logo, color palette, typography, and marketing materials.",
     image: "/projects/brand-identity.jpg",
     technologies: ["Adobe Illustrator", "Photoshop", "InDesign", "Figma"],
     features: [
@@ -283,7 +268,8 @@ export const projects = [
   {
     title: "Wedding Photography Portfolio",
     category: "Photography",
-    description: "Curated collection of wedding photography showcasing various styles from intimate ceremonies to grand celebrations.",
+    description:
+      "Curated collection of wedding photography showcasing various styles from intimate ceremonies to grand celebrations.",
     image: "/projects/wedding-portfolio.jpg",
     technologies: ["Professional Camera Equipment", "Lightroom", "Photoshop"],
     features: [
@@ -298,7 +284,8 @@ export const projects = [
   {
     title: "E-Commerce Analytics Dashboard",
     category: "Data Analytics",
-    description: "Interactive dashboard for analyzing e-commerce performance metrics with real-time data visualization and insights.",
+    description:
+      "Interactive dashboard for analyzing e-commerce performance metrics with real-time data visualization and insights.",
     image: "/projects/analytics-dashboard.jpg",
     technologies: ["Python", "Streamlit", "Pandas", "Plotly", "SQL"],
     features: [
@@ -314,7 +301,8 @@ export const projects = [
   {
     title: "Social Media Content Calendar",
     category: "Product Design",
-    description: "A comprehensive tool for planning, creating, and scheduling social media content across multiple platforms.",
+    description:
+      "A comprehensive tool for planning, creating, and scheduling social media content across multiple platforms.",
     image: "/projects/content-calendar.jpg",
     technologies: ["React", "Next.js", "Supabase", "Tailwind CSS"],
     features: [
@@ -330,7 +318,8 @@ export const projects = [
   {
     title: "Photography Workshop Series",
     category: "Education",
-    description: "Educational content series teaching photography fundamentals through online workshops and tutorials.",
+    description:
+      "Educational content series teaching photography fundamentals through online workshops and tutorials.",
     image: "/projects/photo-workshop.jpg",
     technologies: ["Video Production", "Online Learning Platforms"],
     features: [
