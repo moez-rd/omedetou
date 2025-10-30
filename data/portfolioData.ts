@@ -37,6 +37,11 @@ export const aboutMe = {
   ],
   services: [
     {
+      icon: Brain,
+      title: "Data Analysis",
+      description: "Analyzing data to provide business insights",
+    },
+    {
       icon: Camera,
       title: "Content Creation",
       description:
@@ -46,11 +51,6 @@ export const aboutMe = {
       icon: Palette,
       title: "Graphic Design",
       description: "Designing visual identities and marketing materials",
-    },
-    {
-      icon: Brain,
-      title: "Data Analysis",
-      description: "Analyzing data to provide business insights",
     },
   ],
 };
