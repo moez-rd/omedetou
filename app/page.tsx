@@ -290,8 +290,8 @@ export default function Page() {
                 key={index}
                 className="bg-muted/30 rounded-xl p-6 border border-border"
               >
-                <div className="grid md:grid-cols-4 gap-6">
-                  <div className="md:col-span-3 space-y-4">
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="md:col-span-2 space-y-4">
                     <div className="space-y-2">
                       <div className="flex flex-wrap items-center gap-3">
                         <h3 className="text-xl font-semibold">{exp.title}</h3>
@@ -314,8 +314,6 @@ export default function Page() {
                       </div>
                     </div>
 
-                    <p className="text-sm leading-relaxed">{exp.description}</p>
-
                     <div>
                       <h4 className="font-medium mb-2 text-sm">
                         Key Achievements:
@@ -329,17 +327,6 @@ export default function Page() {
                         ))}
                       </ul>
                     </div>
-
-                    <div className="flex flex-wrap gap-2">
-                      {exp.skills.map((skill, i) => (
-                        <span
-                          key={i}
-                          className="px-2 py-1 bg-background text-xs rounded-full border border-border"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
                   </div>
 
                   <div className="flex justify-center">
@@ -348,7 +335,7 @@ export default function Page() {
                       alt={exp.company}
                       width={200}
                       height={150}
-                      className="rounded-lg object-cover w-full h-32"
+                      className="rounded-lg object-cover w-full h-56"
                     />
                   </div>
                 </div>
@@ -393,10 +380,6 @@ export default function Page() {
                       </div>
                     </div>
 
-                    <p className="text-sm leading-relaxed">
-                      {work.description}
-                    </p>
-
                     <div>
                       <h4 className="font-medium mb-2 text-sm">
                         Key Responsibilities:
@@ -409,22 +392,6 @@ export default function Page() {
                           </li>
                         ))}
                       </ul>
-                    </div>
-
-                    <div>
-                      <h4 className="font-medium mb-2 text-sm">
-                        Technologies Used:
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {work.technologies.map((tech, i) => (
-                          <span
-                            key={i}
-                            className="px-3 py-1 bg-muted text-xs rounded-full border border-border"
-                          >
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
                     </div>
                   </div>
 
