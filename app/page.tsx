@@ -146,7 +146,7 @@ export default function Page() {
             {/* Right Image */}
             <div className="flex justify-center order-1 md:order-2">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl"></div>
                 <Image
                   width={400}
                   height={500}
@@ -223,7 +223,7 @@ export default function Page() {
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
                   <div
-                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000"
+                    className="bg-linear-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000"
                     style={{ width: `${skill.level}%` }}
                   ></div>
                 </div>
